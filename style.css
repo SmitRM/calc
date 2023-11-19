@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+
+}
+.main{
+    border: 1px  rgb(14, 14, 176);
+    width: 200px;
+    border-radius: 5px;
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: aqua;
+   box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+
+
+    
+}
+.main h1{
+    text-align: center;
+    color:;
+}
+#display {
+    margin: 10px;
+    width: 85%;
+    font-size: 20px;
+    height: 40px;
+
+}
+button{
+    height: 45px;
+    width: 45px;
+    margin: 3px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
